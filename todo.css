@@ -1,0 +1,75 @@
+
+.to-do-container{
+    width: 600px;
+    border: 1px solid black;
+    margin:auto;
+    background-color: #44C2E5;
+    border-radius: 6px; 
+}
+.add-task{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.add-task-icon{
+    cursor: pointer;
+    width: 91px;
+    display: inline-block;
+    background-color:#008CBA;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.task-list{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.complete-icon,
+.edit-icon , 
+.del-icon {
+    width: 35px;
+    padding: 8px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border: aliceblue;
+    padding: 5px
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.unstrike {
+    text-decoration: none;
+}
+
+.btn-add {
+    background-color: #44C2E5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
